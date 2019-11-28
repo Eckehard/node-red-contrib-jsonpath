@@ -94,6 +94,8 @@ $..*                   | all Elements in XML document. All members of JSON struc
 
 The node is at an early stage but is already usable. Currently the node provides support for evaluating JSONPath expressions over messages. Match results can all be sent in a bundle or each as a separate message. 
 
+This fork adds an option to use msg.expression to evaluate the payload.
+
 License
 -------
 
@@ -109,3 +111,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
