@@ -48,7 +48,7 @@ module.exports = function(RED) {
                     }
                 }
                 // Evalute the JSONPath expresssion
-                var evalResult = jsonPath.eval(input, node.expression);
+                var evalResult = jsonPath.eval(input, node.expression || msg.expression);
 
                 if (!node.split) {
                     // Batch it in one message. Carry pre-existing properties
